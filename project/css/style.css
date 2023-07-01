@@ -1,0 +1,237 @@
+body{
+    background-color: black;
+}
+body::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+/*img {
+    display: block;
+}
+*/
+
+/*active link*/
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus
+
+{
+    background: #337ab7;
+}
+
+/*navbar link*/
+.navbar-inverse .navbar-nav > li > a
+{
+    color: #009afa;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+/*brand name*/
+.navbar-inverse .navbar-brand
+{
+    color: white;
+    font-size: 35px;
+    line-height: 25px;
+}
+.navbar-inverse .navbar-brand span{
+    color: #009afa;
+}
+.navbar-inverse .navbar-brand span:hover{
+    color: white;
+}
+
+/* Carousal */
+.item
+{
+    margin-top: 61px;
+}
+.item > img
+{
+    min-height: 100%;
+    min-width: 100%;
+}
+
+h1{
+    margin:35px 20px;
+   text-align: center;
+    color: #337ab7;
+    
+}
+
+.container div{
+    
+    float: left;
+}
+
+
+.faculty {
+    width: 250px; 
+    height: 350px ; 
+    margin:35px 150px ;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    
+}
+.faculty > div { 
+    position: absolute; 
+    top =0; 
+    left =0; 
+    width:100%;
+    height:100%;
+    background-color: #CCC;
+    border-radius: 10px ; 
+    border: 1px solid #CCC; 
+    font-family: Arial , Tahoma;
+    text-align: center;
+}
+
+.faculty .front{
+    z-index: 2;
+    backface-visibility: hidden;
+}
+
+
+.faculty .front h4{
+    margin-bottom: 5px;
+}
+
+.faculty .front span { 
+    display: inline-block;
+    margin-top: 10px; 
+    color: #009afa ;
+    font-weight: bold;
+    
+}
+.faculty .back{
+    z-index: 1;
+    transform: rotateY(180deg);
+    background-color: #CCC;
+}
+.faculty .back ul { 
+    padding: 0;
+    list-style: none; 
+    line-height: 2;
+    
+}
+.faculty:hover {
+    transform: rotateY(180deg);
+}
+
+ul  { 
+    margin: 20px 5px 20px 5px;
+    padding: 0px; 
+  
+    list-style: none;
+}
+
+ul li { 
+    line-height: 3;
+}
+
+
+footer {
+	text-align: center;
+	padding: 20px;
+	margin: 20px;
+    color: #009afa;
+    background-color: #333;
+}
+footer:hover{
+	color: white;
+	transition: 0.4s ease-in-out;
+}
+
+
+.semester{
+    
+}
+
+
+.content{
+    margin: 0px 161px;
+    border: 2px solid;
+    padding: 45px;
+}
+
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #248ecc;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+   
+    width: 50%
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+        
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: white;
+    
+}

@@ -1,0 +1,47 @@
+body{
+	background-image: url("../tF9KP0V.png");
+	background-repeat: no-repeat;
+	position: fixed;
+}
+
+.container{
+	width: 800px;
+	height: 500;
+	border: 5px solid #DDD;
+	border-radius: 10%;
+	margin: 150px 150px 200px 200px;	
+}
+.container hover{
+	opacity: .5;
+	transition: 0.4s ease-in-out;
+}
+h1{
+	text-align: center;
+}
+input{
+	margin: 7px;
+	padding: 10px;
+	font-size: 25px;
+}
+label{
+ font-size: 20px;
+}
+.container  h2{
+	text-align: center;
+	font-size: 35px;
+	color: #000;
+}
+button{
+	margin: 0 0 0 325px;
+	cursor: pointer;
+    background-color: #303030;
+
+}
+
+button:hover{
+	color: azure;
+}
+
+button a{
+    color: #303030;
+}
